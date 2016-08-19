@@ -24,7 +24,8 @@ int seconds_of_this_year(int year, int month, int day, int hour, int minute, int
     int total_days = 0;
     for (int i = 1; i < month; ++i)
     {
-        switch(i){
+        switch(i)
+        {
             case 1: case 3: case 5: case 7: case 8: case 10: case 12:
             total_days += 31;
             break;
