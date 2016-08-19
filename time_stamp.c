@@ -55,7 +55,7 @@ int time_stamp(int year, int month, int day, int hour, int minute, int second)
 
 int main(int argc, char const *argv[])
 {
-    // 获取当前系统时间 年-月-日 时:分:秒
+    // Get system date time year-month-day hour:minute:second
     time_t nowtime;
     struct tm *timeinfo;
     time( &nowtime );
